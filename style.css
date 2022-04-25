@@ -1,3 +1,95 @@
 body {
-    background: whitesmoke;
+    background: rgb(58, 58, 58)
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("image/tradition\ 1.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 1630px;
+    background-color: mediumpurple;
+    text-align: left;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+}
+
+.features figure {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.features figure img {
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: gray 0 0 40px;
+    border: 1px solid white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+id {
+    background-color: mediumorchid;
+    padding: 10px;
+    font-style: italic;
+    font-size: larger;
+}
+p {
+    text-align: justify;
+    background-color: mistyrose;
+    background-position: center;
+    font-weight: 300;
+    margin: 4%;
+    display: inline-flex;
+    font-size: x-large;
+}
+
+ol {
+    font-size: x-large;
+    background: lemonchiffon;
+}
+
+div {
+    background-color: mediumorchid;
+    font-size: larger;
+    padding: 10px;
+    font-style: italic;
+}
+
+footer {
+    background: mediumpurple;
+    color: bisque;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 12px;
 }
